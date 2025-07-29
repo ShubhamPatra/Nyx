@@ -1,0 +1,52 @@
+{
+  "name": "nyx-mystical-chat",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Nyx - A mystical AI chat interface with cosmic wisdom and enchanting conversations",
+  "keywords": ["ai", "chat", "mystical", "react", "electron", "nyx", "oracle"],
+  "author": "Nyx Development Team",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-scroll-area": "^1.0.5",
+    "@radix-ui/react-visually-hidden": "^1.0.3",
+    "axios": "^1.11.0",
+    "clsx": "^2.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-window": "^1.8.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/react-window": "^1.8.8",
+    "@vitejs/plugin-react": "^4.6.0",
+    "@vitest/ui": "^1.3.1",
+    "eslint": "^9.30.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "jsdom": "^24.0.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^7.0.4",
+    "vitest": "^1.3.1"
+  }
+}
